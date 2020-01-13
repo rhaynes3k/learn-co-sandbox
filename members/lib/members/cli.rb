@@ -1,8 +1,13 @@
 class Members::CLI
 
   def call
-    search_query
-    list_members
+    # search_query
+    # list_members
+    state_list
+  end
+  
+  def state_list
+    puts STATES[0][1]
     
   end
   
